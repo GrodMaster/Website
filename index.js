@@ -3,7 +3,7 @@ let body = document.querySelector('body')
 let modalHTML = `
 <div class="modal js-modal" data-modal="1">
     <h2 class="modal_title">Обратная связь</h2>
-    <form method="post" action="#">
+    <form method="post" action="./index.html">
     <label for="name">ФИО</label>
     <input type="text" name="name" placeholder="Евгений">
     <label for="phone">Телефон</label>
