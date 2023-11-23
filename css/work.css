@@ -1,0 +1,26 @@
+
+.work>h2{
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.work_body{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.img_item>img{
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
